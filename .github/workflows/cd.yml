@@ -8,7 +8,7 @@ jobs:
   tests:
     name: Deploy
     runs-on: ubuntu-latest
-    timoeut-minutes: 6
+    timeout-minutes: 6
 
     steps:
       - name: Check out code
